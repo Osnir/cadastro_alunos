@@ -1,0 +1,36 @@
+{
+    "application": {
+        "id": "",
+        "title": "ovly.cadastro_alunos69.cadastro_alunos",
+        "description": "Cadastro de Alunos",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#Alunos-Gerenciar",
+        "navigationComponentName": "ovly.cadastro_alunos69",
+        "intentSemanticObject": "Alunos",
+        "intentAction": "Gerenciar",
+        "html5ApplicationName": "cadastroalunos",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "77ce0938-8d3a-4bdc-8331-94f5f607d87a-1564948125113"
+        ],
+        "contentPackages": [
+            "be7de92d-d946-44b6-84f6-7bd042277bda-1564947870043"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "DynamicTile",
+        "title": "OVLY App",
+        "subtitle": "Cadastro de Alunos",
+        "searchKeywords": "OVLY App,Cadastro de Alunos",
+        "displayIconUrl": "sap-icon://collaborate",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "/sap/fiori/cadastroalunos/sap/opu/odata/sap/ZT32_69_OVLY_APP_SRV/Students/$count",
+        "refreshInterval": 10,
+        "displayNumberUnit": "Student"
+    }
+}
